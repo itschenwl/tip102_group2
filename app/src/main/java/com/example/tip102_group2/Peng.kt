@@ -1,17 +1,18 @@
 package com.example.tip102_group2
 
-fun Mcdonald(){
+fun mcdonald(){
     val ha = "hahahahah"
     println("嗨嗨")
+    println(ha)
 }
 
 var name: String = "PENG"
 
 fun main() {
-    println("$name")
+    println(name)
     changeName()
     println("${changeName()}")
-    println("${Mcdonald()}")
+    mcdonald()
 }
 
 fun changeName() {
